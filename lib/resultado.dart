@@ -8,13 +8,13 @@ class Resultado extends StatelessWidget {
 
   String get fraseResultado {
     if (pontuacao < 8) {
-      return ' Patifou, foi uma merda.';
+      return ' Ok, satisfatório.';
     } else if (pontuacao < 12) {
       return 'Muito bom!!';
     } else if (pontuacao < 16) {
-      return 'Gastou até!';
+      return 'Expert!';
     } else {
-      return 'Jogou com a 10 cpx';
+      return 'Impossível de bater.';
     }
   }
 
